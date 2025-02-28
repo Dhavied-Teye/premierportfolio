@@ -803,6 +803,9 @@ h1 > span {
   background-repeat: repeat;
 }
 
+.header-form-h {
+  text-align: center;
+}
 .enquiry {
   display: flex;
   flex-direction: row;
