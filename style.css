@@ -49,7 +49,7 @@ body {
   color: var(--text1);
   font-size: var(--fs-18);
   line-height: 1.56;
-  padding-bottom: 25rem;
+  /* padding-bottom: 25rem; */
 }
 
 .bg-less-dark {
@@ -686,7 +686,7 @@ h1 > span {
 
 .testimonials {
   padding: 40px 0;
-  background: black;
+  /* background: black; */
   color: black;
   text-align: center;
 }
@@ -706,7 +706,7 @@ h1 > span {
 .border {
   width: 160px;
   height: 5px;
-  background: #be9278;
+  background: var(--accent);
   margin: 26px auto;
 }
 
@@ -732,7 +732,7 @@ h1 > span {
   padding: 30px;
   color: white;
   border-radius: 5%;
-  border: 2px solid white;
+  border: 2px solid var(--accent);
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* White glowing effect */
   transition: box-shadow 0.3s ease-in-out;
   display: flex;
@@ -751,11 +751,15 @@ h1 > span {
   /* align-items: center; */
 }
 
+.inner h1 {
+  color: var(--text1);
+}
+
 .name {
   font-size: 20px;
   text-transform: uppercase;
   margin: 20px 0;
-  color: #be9278;
+  color: var(--accent);
   /* align-items: center; */
 }
 
