@@ -767,6 +767,22 @@ h1 > span {
   /* color: #be9278; */
   margin-bottom: 20px;
 }
+
+/* Medium screens (tablets) */
+@media (min-width: 37.5em) {
+  .col {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 62.5em) {
+  .col {
+    flex: 1 1 33.33%;
+    max-width: 33.33%;
+  }
+}
 /* SERVICES */
 
 /* ENQUIRY */
